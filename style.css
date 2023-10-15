@@ -37,6 +37,24 @@
     margin-top: 15px;
     
 }
+.mb-3-password{
+    width:100%;
+    background-color: #fff;
+    border-radius: 0.25rem;
+    display: flex;
+    border:1px solid #ced4da;
+}
+.mb-3-password input{
+    width:98%;
+}
+.login_input_show{
+    padding: 4px 2px;
+    display: block;
+}
+.login_input_hidden{
+    padding: 4px 2px;
+    display:none;
+}
 
 .tille-signin{  
     font-size: 15px;   
@@ -97,4 +115,22 @@
     justify-content: space-between;
     position:relative;
     right:10px;
+}
+
+.signup_input_show{
+    padding: 4px 2px;
+    display: block;
+}
+.signup_input_hidden{
+    padding: 4px 2px;
+    display:none;
+}
+
+.signup_input_show-re-reg{
+    padding: 4px 2px;
+    display: block;
+}
+.signup_input_hidden-re-reg{
+    padding: 4px 2px;
+    display:none;
 }
