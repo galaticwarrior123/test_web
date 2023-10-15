@@ -23,7 +23,10 @@
 .form_login.container form {
     line-height: 2;
 }
-    
+.form-login-forgot-password{
+    display: flex;
+    justify-content: space-between;
+}
 .btn.btn-primary{
     width:100%;
     border-radius: 10px;;
