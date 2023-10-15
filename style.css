@@ -137,3 +137,35 @@
     padding: 4px 2px;
     display:none;
 }
+
+
+
+
+.form_fill_tel_content_input{
+    margin-bottom:10px;
+}
+.form_fill_tel_content_input input{
+    border-radius: 0.25rem;
+    height:40px;
+    border:1px solid #ced4da;
+}
+
+
+.form_fill_code_content_input{
+    margin-bottom:10px;
+}
+.form_fill_code_content_input input{
+    border-radius: 0.25rem;
+    height:40px;
+    border:1px solid #ced4da;
+}
+
+
+.form_fill_new_password_content_input{
+    margin-bottom:10px;
+}
+.form_fill_new_password_content_input input{
+    border-radius: 0.25rem;
+    height:40px;
+    border:1px solid #ced4da;
+}
