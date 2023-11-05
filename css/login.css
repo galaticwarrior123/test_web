@@ -1,11 +1,53 @@
+.container_body{
+    background-image: linear-gradient(to right, #6bb88f , #392cc8, #ee69f3, #f26649);
+    width: 100%;
+    height: 100%;
+    display:flex;
+}
+
+.container.image{
+    display:flex;
+
+}
+.container.image p{
+    font-size: 20px;
+    color:#fff;
+    font-family: 'Be VietNam Pro', sans-serif;
+    margin-top:15px;
+    margin-left:1%;
+}
+.container_nav_help{
+    width:160px;
+}
+.container_body_title{
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 150px;
+    margin-left: 15%;
+}
+.container_body_title h2{
+    font-family: 'Be VietNam Pro', sans-serif;
+}
+.container_body_title p{
+    font-size:10px;
+    font-family: 'Be VietNam Pro', sans-serif;
+}
+
 .form_login{
     width: 450px;
-    margin: 80px auto;
+    margin: 80px auto 100px auto;
     padding: 30px 20px;
     background: #f4f7f8;
     border-radius: 5px;
     box-shadow: 0px 0px 3px rgba(0,0,0,0.2);
+
     
+}
+
+.signin{
+    display:block;
 }
 
 .form-login-btn{
@@ -22,6 +64,7 @@
 }
 .form_login.container form {
     line-height: 2;
+
 }
 .form-login-forgot-password{
     display: flex;
@@ -139,6 +182,9 @@
 }
 
 
+.fill_tel{
+    display:block;
+}
 
 
 .form_fill_tel_content_input{
@@ -148,6 +194,10 @@
     border-radius: 0.25rem;
     height:40px;
     border:1px solid #ced4da;
+}
+
+.fill_code{
+    display:block;
 }
 
 
@@ -160,6 +210,11 @@
     border:1px solid #ced4da;
 }
 
+.fill_new_password{
+    display:block;
+}
+
+
 
 .form_fill_new_password_content_input{
     margin-bottom:10px;
@@ -168,4 +223,9 @@
     border-radius: 0.25rem;
     height:40px;
     border:1px solid #ced4da;
+}
+
+
+.register{
+    display: block;
 }
